@@ -2,11 +2,12 @@
 ## Surgical Navigation and Optical Tracking
 
 Surgical navigation combines medical imaging and visualization, providing surgeons with positional information about the patient and instruments on an auxiliary display. This allows operators to plan the trajectory of instruments in real-time as they penetrate the skin.  
-State-of-the-art navigation systems incorporate invasive retro-reflective markers that can be detected with the help of infrared cameras. This technique is highly expensive, with these systems costing as much as $200,000 - $500,000.
 
-Optical tracking, a much cheaper alternative to infrared tracking, relies on visible light to be able to track specific objects or markers.
+State-of-the-art navigation systems incorporate invasive retro-reflective markers inserted into the skin of the patient that can be detected with the help of infrared cameras. This technique is highly expensive, with these systems costing as much as $200,000 - $500,000.
 
-With two low-cost web cameras, a stereoscopic camera can be calibrated and programmed to detect the 3D position of moving fiducial
+Optical tracking, a much cheaper alternative to infrared tracking, relies on visible light to be able to track specific objects or markers. These markers are to be stuck on the patient and the surgical instruments while cameras follow their movement. 
+
+In this project, with two low-cost web cameras, a stereoscopic camera is calibrated and programmed to detect the 3D position of moving fiducial
 ArUco markers, non-invasive tags that store positional information. 
 
 To test the accuracy of the system, the markers were moved with a robot in 3D with the objective of tracking movements patients and instruments during surgery.
