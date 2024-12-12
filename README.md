@@ -1,12 +1,6 @@
-@settings { 
-  font-size: 100;
-}
-
 
 ```
-
 Calibration - Python
-
 ```
 
 Calibration here is performed to calibrate the stereoscopic camera (a system that uses 2 cameras).
