@@ -12,6 +12,10 @@ ArUco markers, non-invasive tags that store positional information.
 
 To test the accuracy of the system, the markers were moved with a robot in 3D with the objective of tracking movements patients and instruments during surgery.
 
+The codes in this repository show you how to calibrate the two cameras, program them to detect ArUco markers and capture their position as they move.
+
+For more information on this project, read my thesis on Optical Tracking via Stereo-vision for Surgical Navigation. 
+
 # Calibration - Python
 
 Calibration is performed to calibrate the stereoscopic camera (a system that uses 2 cameras).
