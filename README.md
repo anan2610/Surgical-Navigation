@@ -5,6 +5,7 @@ Calibration here is performed to calibrate the stereoscopic camera (a system tha
 In the folder ‘Calibration_Images’, you will find pairs of images of a 9x7 chessboard captured using the stereo camera. 
 
 Run stereo_calibration.py
+
 Output is stored in StereoMap.yaml
 
 # Marker Tracking - Python
@@ -13,6 +14,7 @@ Output is stored in StereoMap.yaml
 The second input is the left and right videos of the moving marker. Here, it is a video of the robotic arm moving a 4x4 ArUco marker in a circle – you will find the videos in the folder ‘Videos’. The circle has a slight inclination, meaning that the camera will also be capturing depth, apart from the X and Y coordinates. 
 
 Run disparity_pixel.py
+
 Output is stored in positions.csv
 
 # Visualizing Data – Matlab
