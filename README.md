@@ -23,7 +23,6 @@ Output is stored in positions.csv
 The input to this is ‘positions.csv’.
 
 Run position.m
+
 Output is a set of graphs and the RMSE calculated between experimental and actual data
-
-
 
