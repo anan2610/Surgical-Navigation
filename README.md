@@ -1,4 +1,14 @@
+@settings { 
+  font-size: 100;
+}
+
+
+```
+
 Calibration - Python
+
+```
+
 Calibration here is performed to calibrate the stereoscopic camera (a system that uses 2 cameras).
 In the folder ‘Calibration_Images’, you will find pairs of images of a 9x7 chessboard captured using the stereo camera. 
 
