@@ -1,7 +1,19 @@
 
+## Surgical Navigation and Optical Tracking
+
+Surgical navigation combines medical imaging and visualization, providing surgeons with positional information about the patient and instruments on an auxiliary display. This allows operators to plan the trajectory of instruments in real-time as they penetrate the skin.  
+State-of-the-art navigation systems incorporate invasive retro-reflective markers that can be detected with the help of infrared cameras. This technique is highly expensive, with these systems costing as much as $200,000 - $500,000.
+
+Optical tracking, a much cheaper alternative to infrared tracking, relies on visible light to be able to track specific objects or markers.
+
+With two low-cost web cameras, a stereoscopic camera can be calibrated and programmed to detect the 3D position of moving fiducial
+ArUco markers, non-invasive tags that store positional information. 
+
+To test the accuracy of the system, the markers were moved with a robot in 3D with the objective of tracking movements patients and instruments during surgery.
+
 # Calibration - Python
 
-Calibration here is performed to calibrate the stereoscopic camera (a system that uses 2 cameras).
+Calibration is performed to calibrate the stereoscopic camera (a system that uses 2 cameras).
 In the folder ‘Calibration_Images’, you will find pairs of images of a 9x7 chessboard captured using the stereo camera. 
 
 Run stereo_calibration.py
