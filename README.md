@@ -7,8 +7,7 @@ State-of-the-art navigation systems incorporate invasive retro-reflective marker
 
 Optical tracking, a much cheaper alternative to infrared tracking, relies on visible light to be able to track specific objects or markers. These markers are to be stuck on the patient and the surgical instruments while cameras follow their movement. 
 
-In this project, with two low-cost web cameras, a stereoscopic camera is calibrated and programmed to detect the 3D position of moving fiducial
-ArUco markers, non-invasive tags that store positional information. 
+In this project, with two low-cost web cameras, a stereoscopic camera is calibrated and programmed to detect the 3D position of moving fiducial ArUco markers, non-invasive tags that store positional information. 
 
 To test the accuracy of the system, the markers were moved with a robot in 3D with the objective of tracking movements patients and instruments during surgery.
 
@@ -43,3 +42,12 @@ Run position.m
 
 Output is a set of graphs and the RMSE calculated between experimental and actual data
 
+## Using the Robot
+
+The robot used for this project is the Braccio Tinkerkit Arduino 5DOF robotic arm. It is controlled using Arduino. 
+
+1. Calibrate the robot using RobotCalibrate.ino
+2. Run RobotMovement.m to get the series of joint angles of the robot for any desired path. Path can be modified by varying the values of the waypoints
+3. Convert data to list type by running ConvertToList.py
+4. Add the joint angles as input to PoweringRobot.ino. See various trajectories for the robot commented out in the file.
+5. Run PoweringRobot.ino while connected to robot.
